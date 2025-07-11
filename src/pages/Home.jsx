@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Pill, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -10,9 +10,6 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 flex flex-col items-center justify-center px-6 py-12">
       {/* Header */}
       <div className="text-center mb-10">
-        <div className="inline-flex items-center gap-2 text-indigo-600 text-3xl font-bold mb-3">
-          <Pill className="w-8 h-8" /> MediCare
-        </div>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800 leading-tight">
           Never Miss a Dose Again
         </h1>
