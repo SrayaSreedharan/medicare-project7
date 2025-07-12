@@ -7,15 +7,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 flex items-center justify-center px-4">
       <div className="bg-white max-w-2xl w-full rounded-3xl shadow-2xl p-12 border border-gray-200">
-        {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-extrabold text-gray-800">Never Miss a Dose Again</h1>
           <p className="text-gray-600 mt-2 text-base">
             A smart and simple medication reminder system for both patients and caretakers.
           </p>
         </div>
-
-        {/* How It Works */}
         <div className="bg-indigo-50 rounded-xl p-6 mb-8">
           <h2 className="text-xl font-semibold text-indigo-700 mb-3">💡 How It Works</h2>
           <ul className="text-gray-700 space-y-2 list-disc list-inside text-left">
@@ -24,8 +21,6 @@ export default function Home() {
             <li><strong>Reminder:</strong> If not marked by 8PM, caretaker receives an email.</li>
           </ul>
         </div>
-
-        {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
           <button
             onClick={() => navigate('/patient')}
