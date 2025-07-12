@@ -14,7 +14,7 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-indigo-50 rounded-xl p-6 mb-8">
-          <h2 className="text-xl font-semibold text-indigo-700 mb-3">💡 How It Works</h2>
+          <h2 className="text-xl font-semibold text-indigo-700 mb-3">How It Works</h2>
           <ul className="text-gray-700 space-y-2 list-disc list-inside text-left">
             <li><strong>Caretaker:</strong> Adds daily medications with name and dosage.</li>
             <li><strong>Patient:</strong> Views list and marks each as "Taken" daily.</li>
