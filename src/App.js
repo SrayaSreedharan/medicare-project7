@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './index.css'; 
 import Home from './pages/Home';
 import Patient from './pages/Patient';
 import Caretaker from './pages/Caretaker';
