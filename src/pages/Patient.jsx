@@ -49,10 +49,7 @@ export default function Patient() {
                         <CheckCircle size={18} /> Taken
                       </span>
                     ) : (
-                      <button
-                        onClick={() => markAsTaken(med.id)}
-                        className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-lg text-sm"
-                      >
+                      <button onClick={() => markAsTaken(med.id)} className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-lg text-sm" >
                         Mark as Taken
                       </button>
                     )}
