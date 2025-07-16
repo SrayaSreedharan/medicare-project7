@@ -25,14 +25,12 @@ export default function Home() {
           <button
             onClick={() => navigate('/patient')}
             className="flex-1 py-3 px-6 bg-green-500 hover:bg-green-600 text-white text-lg rounded-xl font-semibold flex items-center justify-center gap-2"
-          >
-            👩‍⚕️ I'm the Patient
+          >👩‍⚕️ I'm the Patient
           </button>
           <button
             onClick={() => navigate('/caretaker')}
             className="flex-1 py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white text-lg rounded-xl font-semibold flex items-center justify-center gap-2"
-          >
-            👨‍🔬 I'm the Caretaker
+          >👨‍🔬 I'm the Caretaker
           </button>
         </div>
       </div>
